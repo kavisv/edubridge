@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <title>HTML</title>
+    </head>
+    <body>
+        <!-- Below is the tag to display images -->
+        
+        <img src="images(1).jpg" title="jewellery shop"/>
+        <h1>Welcome to my jewellery shop.</h1>
+        <p>We are here to learn more <strong>intersting</strong> <em>technologies</em>.</p>
+        We will also be learning to upload our files on <a href="https://github.com">GitHub</a>. <br/><br/>
+        To use GitHub, we will have to create a GitHub account. <br/><br/>
+
+        <h3>Let's create an HTML Form</h3>
+
+        <!--form tag is used to create FORMS in HTML-->
+        <form>
+            <label for="firstName">First Name: </label>
+            <!--Input type text is used to display textbox-->
+            <input type="text" name="firstName" id="firstName"/> <br/><br/>
+
+            <label for="lastName">Last Name: </label>
+            <input name="lastName" id="lastName"/> <br/><br/>
+
+            <label> Date of Birth:</label>
+            <input type="date" name="dateOfBirth" id="dateOfBirth"/><br/><br/>
+
+            <p>Please select your Gender:</p>
+            <!--Input type radi is used to display radio options-->
+            <input type="radio" id="male" name="gender" value="male"/>
+            <label for="gender">Male</label>
+            <input type="radio" id="female" name="gender" value="female"/>
+            <label for="gender">Female</label>
+            <input type="radio" id="other" name="gender" value="other"/>
+            <label for="gender">Other</label>
+
+            <p>Select your fav fruit:</p>
+            <input type="checkbox" id="apple" name="fruit" value="apple"/>
+            <label for="fruit">Apple</label>
+            <input type="checkbox" id="mango" name="fruit" value="mango"/>
+            <label for="fruit">Mango</label>
+            <input type="checkbox" id="banana" name="fruit" value="banana"/>
+            <label for="fruit">Banana</label> <br/><br/>
+
+            <label for="langChoice">Select your fav language:</label>
+            <select name="langChoice" id="langChoice">
+                <option>All</option>
+                <option>Javascript</option>
+                <option>Java</option>
+                <option >Python</option>
+            </select>
+            <br/><br/>
+
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+
+        </form>
+        <footer>
+            This is a footer
+        </footer>
+    </body>
+</html>
