@@ -1,0 +1,358 @@
+*
+
+{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.full-page
+
+{
+
+    height: 100%;
+
+    width: 100%;
+
+    background:sandybrown;
+
+    position: absolute;
+
+}
+
+.sub-page
+
+{
+
+    width: 90%;
+
+    height: 90%;
+
+    position: absolute;
+
+    background-color:lightyellow;
+
+    background-size: cover;
+
+    background-position: center;
+
+    text-align:auto;
+
+    
+    left: 50px;
+
+    top: 50px;
+    
+
+}
+
+.navigation-bar
+
+{
+
+    display:table-header-group;
+
+    align-items: center;
+
+    padding: 10px;
+
+    padding-left: 80px;
+
+    padding-right: 30px;
+
+    padding-top: 50px;
+
+}
+
+.logo
+
+{
+
+    position: left;
+
+    margin-top: -30px;
+
+}
+
+.logo a
+
+{
+
+    text-decoration: none;
+
+    color:black;
+
+    font-size: 30px;
+    text-align-last: auto;
+
+    vertical-align: text-top;
+    font-display: left;
+
+}
+
+nav
+
+{
+
+    flex: 1;
+
+    position: fixed;
+
+    right: 0;
+
+}
+
+nav ul 
+
+{
+
+    display:-ms-inline-flexbox;
+
+    list-style: none;
+
+    text-align: justify;
+    
+    text-size-adjust: 20px;
+    
+    text-shadow:chocolate;
+
+    font-display:orange;
+
+
+
+}
+
+nav ul li
+
+{
+
+    display: inline-block;
+
+    margin-right: 90px;
+
+    margin-top: 17px;
+
+    text-align: right;
+
+}
+
+nav ul li a
+
+{
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    color:black;
+
+    font-family: sans-serif;
+     
+    font-display:left;
+
+    text-size-adjust: left;
+
+    text-align: center;
+
+    
+
+    
+     
+    
+
+}
+
+nav ul li a:hover
+
+{
+
+    color:seagreen;
+
+}
+
+.row
+
+{
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+}
+
+.col-1
+
+{
+
+    flex-basis: 50%;
+
+    min-width: 300px;
+
+}
+
+.form-box
+
+{
+
+    width: 300px;
+
+	height: 350px;
+
+	position: relative;
+
+    top: 150px;
+
+    left: 300px;
+
+	background:salmon;
+
+
+
+}
+
+.main-heading
+
+{
+
+    color:black;
+
+    padding-bottom: 20px;
+
+}
+
+.form
+
+{
+
+	position: relative;
+
+	margin: 0 auto 100px;
+
+	padding: 45px;
+
+    text-align: center;
+
+}
+
+.form input
+
+{
+
+	font-family: sans-serif;
+
+	outline: none;
+
+    border: none;
+
+    border-bottom: 1px solid black;
+
+	width: 100%;
+
+	margin: 0 0 15px;
+
+	padding: 15px;
+
+	font-size: 14px;
+
+}
+
+.form button
+
+{
+
+	font-family: sans-serif;
+
+	width: 100%;
+
+    color: white;
+
+	font-size: 14px;
+
+	cursor: pointer;
+
+	padding: 15px;
+
+    border: none;
+
+    background:cadetblue;
+
+}
+
+.form .message
+
+{
+
+    font-size: 12px;
+
+	margin: 15px 0 0;
+
+    color: black;
+
+}
+
+.form .message a
+
+{
+
+	color: orangered;
+
+	text-decoration: none;
+
+}
+
+.form .register-form{
+
+	display:none;
+
+}
+
+
+.defination
+
+{
+
+    text-align: left;
+
+    font-size: 30px;
+
+    color: white;
+
+    font-family:cursive;
+
+    padding-left: 60px;
+
+}
+.log a
+
+{
+    text-align:top;
+
+    color:darkcyan;
+
+    font-size: 30px;
+
+    font-display: left;
+
+    text-align-last: auto;
+
+    vertical-align: text-top;
+
+    margin-top: 10px;
+    
+    font-display:black;
+    
+
+}
+div ul{
+    text-shadow:blanchedalmond;
+}
+
+
